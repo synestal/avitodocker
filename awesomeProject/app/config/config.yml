@@ -1,0 +1,21 @@
+Server:
+  AppVersion: "2.0.1"
+  Host: "0.0.0.0"
+  Port: ":8080"
+  Timeout: 60s
+
+Postgres:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "Synesta17"
+  DBName: "AvitoDb"
+  sslMode: "disable"
+  pgDriver: "postgres"
+
+
+Redis:
+  addr: "localhost:6379"
+  password: ""
+  DB:       0
+
